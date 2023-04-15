@@ -1,0 +1,39 @@
+// Styles
+.landing-page-container {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  background-color: $background-color;
+
+  // Responsive styles
+  @include breakpoint("tablet") {
+    font-size: 16px;
+  }
+
+  @include breakpoint("desktop") {
+    font-size: 18px;
+  }
+}
+
+.cont {
+  padding: 80px;
+}
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+
+html {
+  background-color: #ebebeb;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+}

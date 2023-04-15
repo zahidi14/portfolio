@@ -1,0 +1,26 @@
+// Mixins
+@mixin center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin breakpoint($point) {
+  @if $point == "tablet" {
+    @media (min-width: 768px) and (max-width: 1023px) {
+      @content;
+    }
+  } @else if $point == "desktop" {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  } @else if $point == "large-desktop" {
+    @media (min-width: 1440px) {
+      @content;
+    }
+  } @else {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+}
