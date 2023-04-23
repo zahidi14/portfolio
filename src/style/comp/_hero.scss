@@ -18,7 +18,7 @@
   }
 
   button {
-    background-color: $primary-color;
+    background-color: $backg;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -28,7 +28,7 @@
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: darken($primary-color, 10%);
+      background-color: darken($backg, 10%);
     }
   }
 }
