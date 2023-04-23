@@ -5,13 +5,13 @@
             "name":"Base Apparel Coming Soon Page",
             "code": "HTML CSS JS",
             "desc": "Simple Landing Page",
-            "img" :"/img/fm1/png"
+            "img" :"/img/fm1.png"
         },
         {
             "id": 2,
-            "name":"Base Apparel Coming Soon Page",
+            "name":"Fylo",
             "code": "HTML CSS JS",
-            "desc": "Simple Landing Page",
+            "desc": "Fylo",
             "img" :"/img/fm1/png"
         },
         {

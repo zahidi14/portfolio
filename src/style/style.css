@@ -217,24 +217,6 @@ section#project .card-wrap .col {
   flex: 30%;
   max-width: 30%;
 }
-section#project .card-wrap .col .advGen {
-  background: #333 no-repeat center;
-}
-section#project .card-wrap .col .book {
-  background: #333 no-repeat center;
-}
-section#project .card-wrap .col .fm {
-  background: #333 no-repeat center;
-}
-section#project .card-wrap .col .fylo {
-  background: #333 no-repeat center;
-}
-section#project .card-wrap .col .hud {
-  background: #333 no-repeat center;
-}
-section#project .card-wrap .col .intro {
-  background: #333 no-repeat center;
-}
 section#project .hov-card {
   width: 100%;
   height: 300px;
