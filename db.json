@@ -5,42 +5,42 @@
             "name":"Base Apparel Coming Soon Page",
             "code": "HTML CSS JS",
             "desc": "Simple Landing Page",
-            "img" :"/img/fm1.png"
+            "img" :"/images/fm1.png"
         },
         {
             "id": 2,
             "name":"Fylo",
             "code": "HTML CSS JS",
-            "desc": "Fylo",
-            "img" :"/img/fm1/png"
+            "desc": "Simple Responsive design web page",
+            "img" :"/images/fylo.png"
         },
         {
             "id": 3,
-            "name":"Base Apparel Coming Soon Page",
-            "code": "HTML CSS JS",
-            "desc": "Simple Landing Page",
-            "img" :"/img/fm1/png"
+            "name":"Advice Generator",
+            "code": "HTML SASS JS API",
+            "desc": "Advice Generator using api",
+            "img" :"/images/advice.png"
         },
         {
             "id": 4,
-            "name":"Base Apparel Coming Soon Page",
+            "name":"Project Tracking Intro Component",
             "code": "HTML CSS JS",
-            "desc": "Simple Landing Page",
-            "img" :"/img/fm1/png"
+            "desc": "layout and code challenge from Front End Mentor",
+            "img" :"/images/intro.png"
         },
         {
             "id": 5,
-            "name":"Base Apparel Coming Soon Page",
+            "name":"Huddle Landing Page",
             "code": "HTML CSS JS",
             "desc": "Simple Landing Page",
-            "img" :"/img/fm1/png"
+            "img" :"/images/hud.png"
         },
         {
             "id": 6,
-            "name":"Base Apparel Coming Soon Page",
+            "name":"Simple Bookmark Manager",
             "code": "HTML CSS JS",
             "desc": "Simple Landing Page",
-            "img" :"/img/fm1/png"
+            "img" :"/images/bookfm.png"
         }
     ]
 }
