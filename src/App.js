@@ -9,11 +9,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div >
+    <div>
       <Router>
         <Header />
 
-        <div >
+        <div className="contolainer">
           <Routes>
             <Route exact path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />

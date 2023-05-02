@@ -1,6 +1,5 @@
 // Styles
 
-
 * {
   font-family: sans-serif;
   margin: 0;
@@ -10,8 +9,11 @@
   scrollbar-width: none;
   font-family: Arial, sans-serif;
   color: $text-color;
-  
 
+  scrollbar-width: none; /* Firefox */
+  ::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
   // Responsive styles
   @include breakpoint("tablet") {
     font-size: 16px;
@@ -32,6 +34,19 @@ body {
   background-color: #fff;
 }
 
-svg{
+svg {
   fill: aqua;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  :nth-child(1) {
+    color: $text-color;
+    font-size: larger;
+  }
+}
+.contolainer {
+  padding: 0;
+  margin: 0;
 }

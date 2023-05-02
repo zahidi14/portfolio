@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-around;
-
+  z-index: 999999;
   padding: 12px;
   position: fixed;
   bottom: 0;
@@ -55,8 +55,6 @@ header {
     border-radius: 50px;
     background-color: rgba(255, 255, 255, 0);
     span {
-     
-     
       display: none;
     }
     :focus {
@@ -71,9 +69,7 @@ header {
       // width: 100%;
       margin-left: 5px;
       transition: 0.2s;
-    
     }
-   
   }
   *:focus {
     outline: none;
