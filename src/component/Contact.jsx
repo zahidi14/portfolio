@@ -9,7 +9,9 @@ const Contact = () => {
         backgroundSize: "cover",
       }}
     >
-      <h1>Contact</h1>
+      <div className="header">
+        <h1>Contact</h1>
+      </div>
       <form
         className="form"
         id="form"

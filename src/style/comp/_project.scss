@@ -2,6 +2,7 @@ section#project {
   color: white;
   padding: 80px 70px;
   background-color: $backg;
+  height: 100vh;
   .card-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -47,7 +48,7 @@ section#project {
         width: auto;
       }
       h4 {
-        color: $text-color;
+        color: $darkText;
         font-size: 22px;
         height: 50px;
         width: auto;
@@ -78,4 +79,56 @@ section#project {
   backdrop-filter: blur(7.2px);
   -webkit-backdrop-filter: blur(7.2px);
   border: 1px solid rgba(192, 244, 242, 0.37);
+}
+
+// ====== Pagination =========
+
+$color_1: #dd4124;
+$color_2: #fff;
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  > div {
+    padding-top: 10px;
+  }
+}
+.paginate-ctn {
+  display: flex;
+}
+.round-effect {
+  color: $color_1;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 9px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    background: #dd4124;
+    color: $color_2;
+    a {
+      text-decoration: none;
+      color: $color_2;
+    }
+  }
+}
+.active {
+  background: #dd4124;
+  color: $color_2;
+}
+a {
+  &:link {
+    text-decoration: none;
+    color: $color_1;
+  }
 }

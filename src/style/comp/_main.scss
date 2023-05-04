@@ -8,7 +8,7 @@
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none;
   font-family: Arial, sans-serif;
-  color: $text-color;
+  color: $lightText;
 
   scrollbar-width: none; /* Firefox */
   ::-webkit-scrollbar {
@@ -24,16 +24,13 @@
   }
 }
 
-html {
-  background-color: #ebebeb;
-}
-
 body {
   height: 100vh;
   margin: 0 auto;
-  background-color: #fff;
 }
-
+h1 {
+  font-size: 50px;
+}
 svg {
   fill: aqua;
 }
@@ -42,8 +39,7 @@ svg {
   justify-content: center;
   margin-bottom: 10px;
   :nth-child(1) {
-    color: $text-color;
-    font-size: larger;
+    color: $lightText;
   }
 }
 .contolainer {

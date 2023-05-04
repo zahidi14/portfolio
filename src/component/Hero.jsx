@@ -9,12 +9,12 @@ const Hero = () => {
         backgroundSize: "cover",
       }}
     >
-      <h1>Welcome to My Portfolio</h1>
+      <h1>Hi ! I'm Zahidi</h1>
       <p>
-        I am a web developer who specializes in creating beautiful and
+        I am a front end web developer who specializes in creating beautiful and
         functional websites and applications.
       </p>
-      <button>Contact Me</button>
+      <button>More About Me...</button>
     </section>
   );
 };
