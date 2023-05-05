@@ -38,7 +38,7 @@
       "code": "HTML SASS JS",
       "desc": "Landing page with wordpress",
       "img": "/images/doc.png",
-      "link": "https://magiclifeindonesia.net/"
+      "link": "http://port.dzahidi.web.id/ipfs/"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "code": "HTML CSS JS",
       "desc": "Simple Landing Page",
       "img": "/images/fm1.png",
-      "link": ""
+      "link": "http://port.dzahidi.web.id/FeMentor/fm1/"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "code": "HTML CSS JS",
       "desc": "Simple Responsive design web page",
       "img": "/images/fylo.png",
-      "link": ""
+      "link": "http://port.dzahidi.web.id/FeMentor/fylo-dark/"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "code": "HTML SASS JS API",
       "desc": "Advice Generator using api",
       "img": "/images/advice.png",
-      "link": ""
+      "link": "http://port.dzahidi.web.id/FeMentor/advice/"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "code": "HTML CSS JS",
       "desc": "layout and code challenge from Front End Mentor",
       "img": "/images/intro.png",
-      "link": ""
+      "link": "http://port.dzahidi.web.id/FeMentor/intro/"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "code": "HTML CSS JS",
       "desc": "Simple Landing Page",
       "img": "/images/hud.png",
-      "link": ""
+      "link": "http://port.dzahidi.web.id/FeMentor/hud/"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "code": "HTML CSS JS",
       "desc": "Simple Landing Page",
       "img": "/images/bookfm.png",
-      "link": ""
+      "link": "http://port.dzahidi.web.id/FeMentor/bookfm/"
     }
   ]
 }

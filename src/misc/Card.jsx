@@ -14,7 +14,7 @@ const Card = ({ card }) => {
             <h3>{list.name}</h3>
             <h4>{list.code}</h4>
             <p>{list.desc}</p>
-            <a target="_blank" rel="noopener noreferrer" href="FeMentor/fm1/">
+            <a target="_blank" rel="noopener noreferrer" href={list.link}>
               Visit
             </a>
           </div>
