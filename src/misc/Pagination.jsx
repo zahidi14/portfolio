@@ -1,9 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCircleChevronRight,
-  faCircleChevronLeft,
-} from "@fortawesome/free-solid-svg-icons";
-
 const Pagination = ({ nPages, curCard, setCurCard }) => {
   const pageNumbers = [...Array(nPages + 1).keys()].slice(1);
   const next = () => {

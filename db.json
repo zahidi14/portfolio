@@ -1,46 +1,92 @@
 {
-    "project" : [
-        {
-            "id": 1,
-            "name":"Base Apparel Coming Soon Page",
-            "code": "HTML CSS JS",
-            "desc": "Simple Landing Page",
-            "img" :"/images/fm1.png"
-        },
-        {
-            "id": 2,
-            "name":"Fylo",
-            "code": "HTML CSS JS",
-            "desc": "Simple Responsive design web page",
-            "img" :"/images/fylo.png"
-        },
-        {
-            "id": 3,
-            "name":"Advice Generator",
-            "code": "HTML SASS JS API",
-            "desc": "Advice Generator using api",
-            "img" :"/images/advice.png"
-        },
-        {
-            "id": 4,
-            "name":"Project Tracking Intro Component",
-            "code": "HTML CSS JS",
-            "desc": "layout and code challenge from Front End Mentor",
-            "img" :"/images/intro.png"
-        },
-        {
-            "id": 5,
-            "name":"Huddle Landing Page",
-            "code": "HTML CSS JS",
-            "desc": "Simple Landing Page",
-            "img" :"/images/hud.png"
-        },
-        {
-            "id": 6,
-            "name":"Simple Bookmark Manager",
-            "code": "HTML CSS JS",
-            "desc": "Simple Landing Page",
-            "img" :"/images/bookfm.png"
-        }
-    ]
+  "project": [
+    {
+      "id": 1,
+      "name": "Landing Page",
+      "code": "PHP CSS JS",
+      "desc": "Using Wordpress for Car Sales",
+      "img": "/images/mitsu.png",
+      "link": "https://mitsubishisukatani.web.id/"
+    },
+    {
+      "id": 2,
+      "name": "Landing Page",
+      "code": "PHP CSS JS",
+      "desc": "Landing Page for Finance Advisor",
+      "img": "/images/mrb.png",
+      "link": "https://mrbconsultant.com"
+    },
+    {
+      "id": 3,
+      "name": "School Blog",
+      "code": "PHP CSS JS",
+      "desc": "School Profile & Blog",
+      "img": "/images/pondo.png",
+      "link": "https://pondokinsanmadani.com/"
+    },
+    {
+      "id": 4,
+      "name": "Landing Page",
+      "code": "PHP CSS JS",
+      "desc": "Landing page with wordpress",
+      "img": "/images/magiclife.png",
+      "link": "https://magiclifeindonesia.net/"
+    },
+    {
+      "id": 5,
+      "name": "Documentaion Page",
+      "code": "HTML SASS JS",
+      "desc": "Landing page with wordpress",
+      "img": "/images/doc.png",
+      "link": "https://magiclifeindonesia.net/"
+    },
+    {
+      "id": 6,
+      "name": "Base Apparel Coming Soon Page",
+      "code": "HTML CSS JS",
+      "desc": "Simple Landing Page",
+      "img": "/images/fm1.png",
+      "link": ""
+    },
+    {
+      "id": 7,
+      "name": "Fylo",
+      "code": "HTML CSS JS",
+      "desc": "Simple Responsive design web page",
+      "img": "/images/fylo.png",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "name": "Advice Generator",
+      "code": "HTML SASS JS API",
+      "desc": "Advice Generator using api",
+      "img": "/images/advice.png",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "name": "Project Tracking Intro Component",
+      "code": "HTML CSS JS",
+      "desc": "layout and code challenge from Front End Mentor",
+      "img": "/images/intro.png",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "name": "Huddle Landing Page",
+      "code": "HTML CSS JS",
+      "desc": "Simple Landing Page",
+      "img": "/images/hud.png",
+      "link": ""
+    },
+    {
+      "id": 11,
+      "name": "Simple Bookmark Manager",
+      "code": "HTML CSS JS",
+      "desc": "Simple Landing Page",
+      "img": "/images/bookfm.png",
+      "link": ""
+    }
+  ]
 }

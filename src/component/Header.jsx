@@ -1,10 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGitHub,
-  faTwitter,
-  faLinkedIn,
-  faFontAwesome,
-} from "@fortawesome/free-brands-svg-icons";
+import { Instagram, Twitter, Github, Linkedin } from "react-bootstrap-icons";
 import {
   faHouse,
   faIdCard,
@@ -64,16 +59,16 @@ const Header = () => {
           </ul>
           <ul className="social">
             <li className="nav-item">
-              {/* <FontAwesomeIcon icon={faGitHub} /> */}
+              <Linkedin />
             </li>
             <li className="nav-item">
-              {/* <FontAwesomeIcon icon={faTwitter} /> */}
+              <Github />
             </li>
             <li className="nav-item">
-              {/* <FontAwesomeIcon icon={faLinkedIn} /> */}
+              <Twitter />
             </li>
             <li className="nav-item">
-              <FontAwesomeIcon icon={faInstagram} />
+              <Instagram />
             </li>
           </ul>
         </nav>

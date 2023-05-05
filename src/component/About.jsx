@@ -9,12 +9,13 @@ const About = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className="header">
+      <div className="container">
         <h1>About Me</h1>
+        <p>
+          Here you can write a brief introduction about yourself and your
+          skills.
+        </p>
       </div>
-      <p>
-        Here you can write a brief introduction about yourself and your skills.
-      </p>
     </section>
   );
 };
