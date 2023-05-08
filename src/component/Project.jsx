@@ -8,7 +8,7 @@ const Project = () => {
   const [card, setCard] = useState([]);
   // const [load, setLoad] = useState(true);
   const [curCard, setCurCard] = useState(1);
-  const [totCard] = useState(3);
+  const [totCard] = useState(6);
 
   const indexLast = curCard * totCard;
   const indexFirst = indexLast - totCard;

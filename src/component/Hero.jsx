@@ -1,11 +1,11 @@
-import backg from "../asset/HeroBackg.svg";
+import backg from "../asset/Night.svg";
 
 const Hero = () => {
   return (
     <section
       id="hero"
       style={{
-        background: `url(${backg}) no-repeat center center fixed`,
+        background: `url(${backg}) no-repeat center center  fixed`,
         backgroundSize: "cover",
       }}
     >

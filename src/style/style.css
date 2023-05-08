@@ -55,7 +55,7 @@ header nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #00413c;
+  background-color: #012842;
   height: 50px;
   z-index: 2;
 }
@@ -83,8 +83,9 @@ header nav .nav-menu li {
 }
 header nav .nav-menu li span {
   visibility: hidden;
-  background-color: #aaf0ec;
-  color: #28a198;
+  margin-left: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
@@ -174,7 +175,7 @@ header .nav-menu .active {
 }
 #hero .contain h1,
 #hero .contain p {
-  color: #28a198;
+  color: #f4f4f4;
   margin-bottom: 20px;
 }
 #hero button {
@@ -206,7 +207,7 @@ header .nav-menu .active {
 }
 #about .container h1,
 #about .container p {
-  color: #28a198;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -234,18 +235,18 @@ header .nav-menu .active {
 #contact form .input-box textarea {
   width: 100%;
   margin: 1rem;
-  color: #28a198;
+  color: #fff;
   font-size: 1rem;
   padding-left: 0.3rem;
 }
 #contact form .input-box textarea::-moz-placeholder {
-  color: #28a198;
+  color: fff;
   font-size: 1rem;
   padding-left: 0.3rem;
   padding-top: 0.3rem;
 }
 #contact form .input-box textarea::placeholder {
-  color: #28a198;
+  color: fff;
   font-size: 1rem;
   padding-left: 0.3rem;
   padding-top: 0.3rem;
@@ -257,17 +258,17 @@ header .nav-menu .active {
 #contact form .input-box input {
   width: 100%;
   margin: 1rem;
-  color: #28a198;
+  color: #fff;
   font-size: 1rem;
   padding-left: 0.3rem;
 }
 #contact form .input-box input::-moz-placeholder {
-  color: #28a198;
+  color: #fff;
   font-size: 1rem;
   padding-left: 0.3rem;
 }
 #contact form .input-box input::placeholder {
-  color: #28a198;
+  color: #fff;
   font-size: 1rem;
   padding-left: 0.3rem;
 }
@@ -279,12 +280,12 @@ header .nav-menu .active {
   height: 2rem;
   background-color: transparent;
   border: none;
-  border-bottom: solid 2px #28a198;
+  border-bottom: solid 2px #fff;
 }
 #contact textarea {
   height: 4rem;
   border: none;
-  border-bottom: solid 2px #28a198;
+  border-bottom: solid 2px #fff;
 }
 #contact .submit-btn {
   color: #28a198;
@@ -314,7 +315,6 @@ section#project {
   color: white;
   padding: 80px 70px;
   background-color: #aaf0ec;
-  height: 100vh;
 }
 section#project .card-wrap {
   display: flex;

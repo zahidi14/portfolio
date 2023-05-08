@@ -20,11 +20,11 @@
       textarea {
         width: 100%;
         margin: 1rem;
-        color: $ijo;
+        color: #fff;
         font-size: 1rem;
         padding-left: 0.3rem;
         &::placeholder {
-          color: $ijo;
+          color: fff;
           font-size: 1rem;
           padding-left: 0.3rem;
           padding-top: 0.3rem;
@@ -37,11 +37,11 @@
       input {
         width: 100%;
         margin: 1rem;
-        color: $ijo;
+        color: #fff;
         font-size: 1rem;
         padding-left: 0.3rem;
         &::placeholder {
-          color: $ijo;
+          color: #fff;
           font-size: 1rem;
           padding-left: 0.3rem;
         }
@@ -57,13 +57,13 @@
     height: 2rem;
     background-color: transparent;
     border: none;
-    border-bottom: solid 2px $ijo;
+    border-bottom: solid 2px #fff;
   }
 
   textarea {
     height: 4rem;
     border: none;
-    border-bottom: solid 2px $ijo;
+    border-bottom: solid 2px #fff;
   }
 
   .submit-btn {

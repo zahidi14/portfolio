@@ -59,16 +59,25 @@ const Header = () => {
           </ul>
           <ul className="social">
             <li className="nav-item">
-              <Linkedin />
+              <a href="http://">
+                <Linkedin />
+              </a>
             </li>
             <li className="nav-item">
-              <Github />
+              <a href="http://">
+                <Github />
+              </a>
             </li>
             <li className="nav-item">
-              <Twitter />
+              <a href="http://">
+                <Twitter />
+              </a>
             </li>
             <li className="nav-item">
-              <Instagram />
+              <a href="http://">
+                {" "}
+                <Instagram />
+              </a>
             </li>
           </ul>
         </nav>
